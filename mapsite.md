@@ -9,5 +9,4 @@ This is the base Jekyll theme. You can find out more info about customizing your
 You can find the source code for Minima at GitHub:
 [shop](https://github.com/jekyll/minima)
 
-
-[codigo de conduta]: https://github.com/jekyll
+[codigo de conduta](https://github.com/jekyll/minima)
