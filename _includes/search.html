@@ -1,35 +1,3 @@
----
-layout: search
----
-<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<script id="rendered-js" >
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myLISTADO");
-var btns = header.getElementsByClassName("listado");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("activeli");
-  current[0].className = current[0].className.replace(" activeli", "");
-  this.className += " activeli";
-  });
-}
-//sercheable 
-  ;(function search () {
-    ;[...document.querySelectorAll('.searchable')].forEach(makeSearchable)
-    function makeSearchable ($searchable) {
-      const $searchableItems = [...$searchable.querySelectorAll('.searchable-item')]
-      const $search = $searchable.querySelector('input')
-      $search.addEventListener('keyup', (e) => {
-        $searchableItems.forEach(function ($el) {
-          const text = $el.getAttribute('data-search') || $el.innerText
-          const show = new RegExp(e.target.value, 'i').test(text)
-          $el.style.display = show ? '' : 'none'
-        })
-      })
-    }
-  })()
-    </script>
 <div id="Search">
    <div class="searchable">
       <div class="w3-container" style="background-color: #f1f1f1;">
@@ -51,6 +19,3 @@ for (var i = 0; i < btns.length; i++) {
       </div>
     </div>
 </div>
-
-
-
