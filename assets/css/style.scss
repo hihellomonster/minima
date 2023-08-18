@@ -5,3 +5,22 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+.my-list {
+ min-height: 100hv;
+  overflow-y: auto;
+}
+
+.listado {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.activeli, .listado:hover {
+  background-color: #f1f1f1;
+}
