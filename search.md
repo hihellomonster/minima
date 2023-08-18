@@ -17,7 +17,7 @@
 </style>
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<script src="/script/myscript.js"></script>
+<script src="https://hihellomonster.github.io/minima/script/myscript.js"></script>
 <div id="Search">
     <div class="searchable">
       <div class="w3-container" style="background-color: #f1f1f1;">
